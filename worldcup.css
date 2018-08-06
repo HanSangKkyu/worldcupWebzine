@@ -1,0 +1,556 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    background-color: #1F230C;
+    background-size: 100%;
+    position: relative;
+}
+
+header a {
+    color: white;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    background-color: #000000;
+    opacity: 0.85;
+}
+
+    header > nav {
+        overflow: hidden;
+        width: 1300px;
+        height: 52px;
+        margin: 0 auto;
+        line-height: 60px;
+        opacity: 1.0;
+        color: white;
+        font-size: 20px;
+    }
+
+        header > nav > img:nth-of-type(1) {
+            padding-top: 7px;
+            width: 45px;
+            height: 45px;
+            float: left;
+        }
+
+        header > nav  div {
+            float: left;
+            margin-right: 50px;
+            margin-left: 5px;
+        }
+
+        header > nav > ul {
+            overflow: hidden;
+            float: left;
+        }
+
+            header > nav > ul > li {
+                float: left;
+                margin-left: 80px;
+            }
+
+.header-nav-item:nth-of-type(1) > a{
+    color: coral;
+}
+
+header > nav > img:nth-of-type(2) {
+    margin-left: 100px;
+    padding-top: 20px;
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+header > nav > #search {
+    float: left;
+    font-size: 16px;
+    color: gray;
+}
+
+#main-wrap {
+    margin: 0 auto;
+    padding: 0 80px;
+    width: 1660px;
+    padding-bottom: 100px;
+}
+
+#main-content {
+    margin: 0 auto;
+    width: 1500px;
+}
+
+#title-area {
+    position: relative;
+    height: 360px;
+}
+
+    #title-area > #title-menu {
+        overflow: hidden;
+        position: absolute;
+        top: 300px;
+        left: 80px;
+        width: 1500px;
+        height: 60px;
+    }
+
+        #title-area > #title-menu > span {
+            margin-left: 40px;
+            color: white;
+            opacity: 0.9;
+            padding-top: 15px;
+            float: left;
+            font-size: 30px;
+            letter-spacing: 2px;
+            text-shadow: 1px 1px #000000;
+        }
+
+        #title-area > #title-menu > ul {
+            padding-top: 20px;
+            line-height: 60px;
+            float: left;
+        }
+
+#slide-img {
+    position: absolute;
+    background-color: black;
+    top: 360px;
+    width: 100%;
+    height: 495px;
+}
+
+
+.other-site-items {
+    float: left;
+}
+
+    .other-site-items img {
+        padding-top: 10px;
+        margin-left: 10px;
+        float: left;
+        width: 20px;
+        height: 20px;
+    }
+
+
+#preview-up {
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+    #preview-up > .preview-up-item {
+        float: left;
+        width: 500px;
+        height: 600px;
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+    }
+
+        #preview-up > .preview-up-item:nth-of-type(1) {
+            border-right: 1px solid gray;
+            border-left: 1px solid gray;
+            float: left;
+            width: 498px;
+            height: 600px;
+            background-color: #ecc759;
+        }
+
+        #preview-up > .preview-up-item:nth-of-type(2) {
+            border-right: 1px solid gray;
+            border-left: 1px solid gray;
+            float: left;
+            width: 498px;
+            height: 600px;
+            background-color: #ecc759;
+        }
+
+        #preview-up > .preview-up-item:nth-of-type(3) {
+            border-right: 1px solid gray;
+            border-left: 1px solid gray;
+            float: left;
+            width: 498px;
+            height: 600px;
+            background-color: #ecc759;
+        }
+
+        #preview-up > .preview-up-item:nth-of-type(4) {
+            border-right: 1px solid gray;
+            border-left: 1px solid gray;
+            float: left;
+            width: 998px;
+            height: 600px;
+            background-color: #ecc759;
+        }
+        #preview-up > .preview-up-item:nth-of-type(5) {
+            border-right: 1px solid gray;
+            border-left: 1px solid gray;
+            float: left;
+            width: 498px;
+            height: 600px;
+            background-color: #ecc759;
+        }
+
+        #preview-up > .preview-up-item:nth-of-type(6) {
+            border-right: 1px solid gray;
+            border-left: 1px solid gray;
+            float: left;
+            width: 1500px;
+            height: 1500px;
+            background-color: #ecc759;
+        }
+
+#preview-down {
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+    #preview-down > .preview-down-item {
+        float: left;
+        width: 500px;
+        height: 600px;
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+    }
+
+        #preview-down > .preview-down-item:nth-of-type(1) {
+            border-right: 1px solid gray;
+            border-left: 1px solid gray;
+            float: left;
+            width: 498px;
+            height: 600px;
+            background-color: #ecc759;
+        }
+
+        #preview-down > .preview-down-item:nth-of-type(2) {
+            border-right: 1px solid gray;
+            border-left: 1px solid gray;
+            float: left;
+            width: 498px;
+            height: 600px;
+            background-color: #ecc759;
+        }
+
+        #preview-down > .preview-down-item:nth-of-type(3) {
+            border-right: 1px solid gray;
+            border-left: 1px solid gray;
+            float: left;
+            width: 498px;
+            height: 600px;
+            background-color: #ecc759;
+        }
+
+        #preview-down > .preview-down-item:nth-of-type(4) {
+            border-right: 1px solid gray;
+            border-left: 1px solid gray;
+            float: left;
+            width: 498px;
+            height: 600px;
+            background-color: #ecc759;
+        }
+
+        #preview-down > .preview-down-item:nth-of-type(5) {
+            border-right: 1px solid gray;
+            border-left: 1px solid gray;
+            float: left;
+            width: 998px;
+            height: 600px;
+            background-color: #ecc759;
+        }
+
+        #preview-down > .preview-down-item:nth-of-type(6) {
+            border-right: 1px solid gray;
+            border-left: 1px solid gray;
+            float: left;
+            width: 1500px;
+            height: 1500px;
+            background-color: #ecc759;
+        }
+
+.small-banner {
+    margin-left: 30px;
+    width: 470px;
+    height: 185px;
+    background-color: blueviolet;
+}
+
+    .small-banner:nth-of-type(2) {
+        margin-top: 22.5px;
+        margin-bottom: 22.5px;
+        margin-left: 30px;
+        width: 470px;
+        height: 185px;
+        background-color: blueviolet;
+    }
+
+footer {
+    background-color: #000200;
+}
+
+#footer-wrap {
+    font-size: 12px;
+    color: #d1d1d1;
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 1660px;
+    height: 400px;
+}
+
+    #footer-wrap nav {
+        overflow: hidden;
+        float: left;
+    }
+
+        #footer-wrap nav li {
+            font-size: 12.5px;
+            float: left;
+            font-weight: bold;
+        }
+
+#footteam > div:nth-of-type(1) {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#footteam > div:nth-of-type(2) {
+    margin-left: 10px;
+    padding-top: 12px;
+    float: left;
+}
+
+#footteam {
+    overflow: hidden;
+}
+
+
+#address {
+    display: block;
+}
+
+
+#copyright-wrap {
+    font-size: 10px;
+}
+
+#copyright {
+    padding-right: 300px;
+}
+
+#MVP {
+    position: relative;
+    width: 1500px;
+    height: 400px;
+    margin-bottom: 100px; 
+}
+
+    #MVP>div {
+        text-align: center;
+        color: #fbe765;
+        font: Bold 50px georgia,times, serif;
+    }
+
+    #MVP>#img1998 {
+        position: absolute;
+        left: 0px;
+    }
+
+    #MVP>#img2002 {
+        position: absolute;
+        left: 250px;
+    }
+
+    #MVP>#img2006 {
+        position: absolute;
+        left: 500px;
+    }
+
+    #MVP>#img2010 {
+        position: absolute;
+        left: 750px;
+    }
+
+    #MVP>#img2014 {
+        position: absolute;
+        left: 1000px;
+    }
+
+    #MVP>#img2018 {
+        position: absolute;
+        left: 1250px;
+    }
+
+    #MVP>.mvp-img>p {
+        background-color: #a00;
+        border: 3px solid #fbe765;
+    }
+#trophy {
+    position: absolute;
+    left: 650px;
+    bottom: -10px;
+}
+
+#banner1 {
+    height: 100px;
+    background-color: #a00
+    background-image: url("worldcupimg/404px-FIFA_Logo_(2010).png");
+    background-size: auto 104%;
+    margin-top: 50px;
+}
+
+#banner2 {
+    height: 100px;
+    background-image: url("worldcupimg/404px-FIFA_Logo_(2010).png");
+    background-size: auto 104%;
+    margin-top: 110px;
+    margin-bottom: 100px;
+}
+
+#title {
+    height: 150px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 150px;
+    -moz-text-stroke: 2px black;
+    -webkit-text-stroke: 2px black;
+    color: white;
+    font-family: 'Black Han Sans', sans-serif;
+    background-image: url("worldcupimg/playergif/godpele.png");
+    background-size: auto 103%;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    padding: 80px;
+}
+
+#earth {
+    display: inline-block;
+}
+
+#worldcupmap {
+    position: relative;
+    margin-top: 110px;
+    height: 150px;
+    line-height: 150px;
+}
+
+#history {
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+    #history > .history-item {
+        overflow: hidden;
+        height: 600px;
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+        height: 600px;
+        background-color: #ecc759;
+    }
+
+#fifa1998,#fifa2002,#fifa2006,#fifa2010,#fifa2014,#fifa2018 {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    height: 20px;
+    background-color: #a00;
+    background-image: url("worldcupimg/404px-FIFA_Logo_(2010).png");
+    background-size: auto 100%;
+}
+
+.year-left {
+    font: Bold 100px georgia,times, serif;
+}
+        
+    .year-left>a {
+        text-decoration: none;
+        color: white;
+        -moz-text-stroke: 2px black;
+        -webkit-text-stroke: 2px black;
+    }
+
+.year-right {
+    font: Bold 100px georgia,times, serif;
+    text-align: right;
+}
+        
+    .year-right>a {
+        text-decoration: none;
+        color: white;
+        -moz-text-stroke: 2px black;
+        -webkit-text-stroke: 2px black;
+    }
+
+#title_history {
+    width: 450px;
+    height: 150px;
+    line-height: 140px;
+    color: white;
+    -moz-text-stroke: 2px black;
+    -webkit-text-stroke: 2px black;
+    font-size: 90px;
+    font-family: 'Black Han Sans', sans-serif;
+    text-align: center;
+    background-image: url("worldcupimg/film.gif");
+    background-color: #a00;
+    background-size: auto 100%;
+}
+
+.history-item {
+    font-size: 22px;
+    padding: 20px;
+}
+
+.preview-up-item > div {
+    padding: 10px;
+}
+
+.history-item:nth-of-type(1) {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 29px;
+}
+
+.wikitable {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 30px;
+}
+
+.history-item .wikitable {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 22px;
+}
+
+.preview-up-item {
+    font-family: 'Do Hyeon', sans-serif;
+    text-align: center;
+    font-size: 28px;
+}
+
+.preview-down-item {
+    font-family: 'Do Hyeon', sans-serif;
+    text-align: center;
+    font-size: 28px;
+}

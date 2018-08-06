@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script type="text/javascript" src="index.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Anton|Black+Han+Sans|Righteous|Do+Hyeon" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gothic+A1|Shrikhand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="img/worldcup.png" />
+            <a href="index.html"><div>THE WORLD CUP WEBZINE</div></a>
+            <ul>
+                <li class="header-nav-item"><a href="worldcup.html">월드컵</a></li>
+                <li class="header-nav-item"><a href="russia.html">러시아</a></li>
+                <li class="header-nav-item"><a href="korea.html">대한민국</a></li>
+                <li class="header-nav-item"><a href="moreinfo.html">추가정보</a></li>
+                <li class="header-nav-item"><a href="quiz.html">축알못</a></li>
+            </ul>
+            <img src="img/search.png" />
+            <div id="search">검색</div>
+            <div id="search-pop-mask">
+                <div id="search-popup">
+                    <div id="finish">X</div>
+                    <input type="text" id="search-keyword">
+                    <button id="search-button"><img src="img/search-button.png" /></button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="slide-img">
+        <div id="slide1">
+            <div>"축잘알"이 알려주는 월드컵</div>
+        </div>
+        <div id="slide-russia">
+            <div>2018 러시아 월드컵</div>
+        </div>
+        <div id="slide2">
+            <div>대한민국 대표팀</div>
+        </div>
+        <div id="slide3">
+            <div>WORLDCUP TMI</div>
+        </div>
+        <div id="slide-quiz"></div>
+        <div></div>
+    </div>
+    <div id="slide-left"><img src="img/slide-left.png" /></div>
+    <div id="slide-right"><img src="img/slide-right.png" /></div>
+    <div id="main-wrap">
+        <div id="title-area">
+            <div id="title-menu">
+                <span>OTHER SITE</span>
+                <ul>
+                    <li class="other-site-items"><a href="https://www.fifa.com/worldcup/"><img src="img/fifa.png" /></a></li>
+                    <li class="other-site-items"><a href="https://www.youtube.com/user/FIFATV"><img src="img/youtube.png" /></a></li>
+                    <li class="other-site-items"><a href="https://www.facebook.com/fifaworldcup/?hc_ref=ARRYzt8N2ezix9TlO46CAhubIVzxnLxh1S0kmXNzNDYEGsf9Qdzxf6572ViTa5xD0ig&fref=nf"><img src="img/facebook.png" /></a></li>
+                    <li class="other-site-items"><a href="https://twitter.com/fifacom"><img src="img/twitter.png" /></a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="main-content">
+            <div id="preview-up">
+                <div class="preview-up-item">
+                    <div id="worldcup-title">월드컵 역사</div>
+                    <img id="go-this-page" src="img/go-this-page.png" />
+                    <img src="img/preview-world.png" />
+                    <div id="worldcup-subtitle">"세계 최대규모의 단일종목 스포트 축제"</div>
+                    <div id="worldcup-content">4년마다 열리는 세계에서 규모가 가장 큰 축구국제 대회로 지구에서 가장 권위있는 스포츠 대회 중 하나이다. 하지만 월드컵이 모두가 열망하는 그런 대회로 시작하지는 않았다. 로스엔젤레스에서 열린 1932년 하계 올림픽에서는 개최국 미국은 미식축구의 인기탓에 축구의 인기가 낮아 정식종목으로 채택될 계획조차 없었다. fifa와 ioc간의 의견이 일치하지 않았고 이에 따라 축구는 올림픽에서 제외 되었다. 그래서 그 당시 fifa 회장이었던 쥘 리메는 첫번째 월드컵 대회를 1930년 우루과이에서 개최하기로 했다. 각 국가의 축구 협회들은 대회 참가 초청을 받았지만, 유럽 지역의 팀들에게는...</div>
+                </div>
+                <div class="preview-up-item">
+                    <div id="highlight-title">월드컵 하이라이트</div>
+                    <iframe width="458" height="250" src="https://www.youtube.com/embed/4rp2aLQl7vg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <div id="highlight-content">Portugal v Spain - 2018 FIFA World Cup Russia™ - MATCH 3</div>
+                    <div id="highlight-go">더 보기</div>
+                    <img id="highlight-go-this-page" src="img/go-this-page.png" />
+                </div>
+                <div class="preview-up-item">
+                    <div id="intro-title">대표팀 선수소개</div>
+                    <img id="intro-go-this-page" src="img/go-this-page.png" />
+                    <table>
+                        <tr>
+                            <td>
+                                <img id="profile0" class="profile-img" src="img/kr_img/황희찬.jpg" />
+                                <div id="desc0" class="profile-desc">황희찬</div>
+                            </td>
+                            <td>
+                                <img id="profile1" class="profile-img" src="img/kr_img/손흥민.jpg" />
+                                <div id="desc1" class="profile-desc">손흥민</div>
+                            </td>
+                            <td>
+                                <img id="profile2" class="profile-img" src="img/kr_img/김신욱.jpg" />
+                                <div id="desc2" class="profile-desc">김신욱</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img id="profile3" class="profile-img" src="img/kr_img/주세종.jpg" />
+                                <div id="desc3" class="profile-desc">주세종</div>
+                            </td>
+                            <td>
+                                <img id="profile4" class="profile-img" src="img/kr_img/정우영.jpg" />
+                                <div id="desc4" class="profile-desc">정우영</div>
+                            </td>
+                            <td>
+                                <img id="profile5" class="profile-img" src="img/kr_img/이재성.jpg" />
+                                <div id="desc5" class="profile-desc">이재성</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img id="profile6" class="profile-img" src="img/kr_img/이승우.jpg" />
+                                <div id="desc6" class="profile-desc">이승우</div>
+                            </td>
+                            <td>
+                                <img id="profile7" class="profile-img" src="img/kr_img/문선민.jpg" />
+                                <div id="desc7" class="profile-desc">문선민</div>
+                            </td>
+                            <td>
+                                <img id="profile8" class="profile-img" src="img/kr_img/기성용.jpg" />
+                                <div id="desc8" class="profile-desc">기성용</div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div id="preview-down">
+                <div class="preview-down-item">
+                    <div id="news-title">뉴스</div>
+                    <img id="go-news-page" src="img/go-this-page.png" />
+                    <div id="news"></div>
+                </div>
+                <div class="preview-down-item">
+                    <div id="moreinfo-title">월드컵 추가정보</div>
+                    <img id="go-moreinfo-page" src="img/go-this-page.png" />
+                    <img src="img/preivew-more.jpg" />
+                    <div id="moreinfo-content">월드컵 유니폼에도 등급이 있다는 사실, 알고 계셨나요?</div>
+                </div>
+                <div class="preview-down-item">
+                    <div id="world-song" class="small-banner"></div>
+                    <div id="ranking" class="small-banner"></div>
+                    <div id="schedule" class="small-banner"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="footer-wrap">
+            <div id="footteam">
+                <div>푸팀</div> <div>Если я тебя знаю, мне нечего бояться</div>
+            </div>
+
+            <br />
+            <br />
+            <br />
+            <nav>
+                <ul>
+                    <li>회사소개 |&nbsp;</li>
+                    <li>채용안내 |&nbsp;</li>
+                    <li>이용약관 |&nbsp;</li>
+                    <li>이용등급안내 |&nbsp;</li>
+                    <li>개인정보처리방침 |&nbsp;</li>
+                    <li>청소년보호정책 |&nbsp;</li>
+                    <li>새천년관 |&nbsp;</li>
+                    <li>운영정책</li>
+                </ul>
+            </nav>
+            <br />
+            <br />
+            <div id="address">
+                <div>
+                    건국대학교 서울시 광진구 능동로 120 KONKUK UNIVERSITY 푸팀
+                </div>
+                <div>E-mail : xxxxxxx@konkuk.ac.kr 학번 : 201711368 팀장 황산해 공과대학 소프트웨어학과 </div>
+                <div>팀원 : 201611244 한상규 201711346 정우혁 201711353 지윤우 201711283 강기호 201711339 임한승</div>
+            </div>
+            <br />
+            <div id="copyright-wrap">
+                <div>ⓒ 2018 FOOTTEAM Corporation All Rights Reserved.</div><br />
+                <div id="copyright">© 2018 FOOTTEAM Web Inc. FT, FT SPORTS, and the FT SPORTS logo are trademarks of FOOTTEAM Arts Inc. Official FIFA licensed product. © FIFA and FIFA’s Official Licensed Product Logo are copyrights and/or trademarks of FIFA. All rights reserved. Manufactured under license by Electronic Arts Inc. The use of real player names and likenesses is authorized by FIFPro Commercial Enterprises BV. The Premier League Logo © The Football Association Premier League Limited 2006. The Premier League Logo is a trademark of the Football Association Premier League Limited which is registered in the UK and other jurisdictions. The Premier League Club logos are copyright works and registered trademarks of the respective Clubs. All are used with the kind permission of their respective owners. Manufactured under license from the Football Association Premier League Limited. No association with nor endorsement of this product by any player is intended or implied by the license granted by the Football Association Premier League Limited to Electronic Arts.All other trademarks are the property of their respective owners.</div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

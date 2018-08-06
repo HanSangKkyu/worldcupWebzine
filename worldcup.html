@@ -1,0 +1,570 @@
+﻿<!DOCTYPE html>
+
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="worldcup.js"></script>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="worldcup.css" />
+    <link href="https://fonts.googleapis.com/css?family=Anton|Black+Han+Sans|Righteous|Do+Hyeon" rel="stylesheet">
+<body>
+    <header>
+        <nav>
+            <img src="img/worldcup.png" />
+            <a href="index.html"><div>THE WORLD CUP WEBZINE</div></a>
+            <ul>
+                <li class="header-nav-item"><a href="worldcup.html">월드컵</a></li>
+                <li class="header-nav-item"><a href="russia.html">러시아</a></li>
+                <li class="header-nav-item"><a href="korea.html">대한민국</a></li>
+                <li class="header-nav-item"><a href="moreinfo.html">추가정보</a></li>
+                <li class="header-nav-item"><a href="quiz.html">축알못</a></li>
+            </ul>
+            <img src="img/search.png" />
+            <div id="search">검색</div>
+        </nav>
+    </header>
+    <div id="main-wrap">
+        <div id="main-content">
+           
+            <div id="title">"축잘알"이 알려주는 월드컵</div>
+
+            <div id="banner1"></div>
+
+            <div id="MVP">
+                <div class="mvp-img" id="img1998">
+                    <a href="#fifa1998"><img src="worldcupimg/1998/ronaldo2.jpg" width="250" height="400"></a> 
+                    <p>1998</p>
+                </div>
+                <div class="mvp-img" id="img2002">
+                    <a href="#fifa2002"><img src="worldcupimg/2002/kahn.jpg" width="250" height="400"></a>
+                    <p>2002</p>
+                </div>
+                <div class="mvp-img" id="img2006">
+                    <a href="#fifa2006"><img src="worldcupimg/2006/Zidane.png" width="250" height="400"></a>
+                    <p>2006</p>
+                </div>
+                <div class="mvp-img" id="img2010">
+                    <a href="#fifa2010"><img src="worldcupimg/2010/Forlan.jpg" width="250" height="400"></a>
+                    <p>2010</p>
+                </div>
+                <div class="mvp-img" id="img2014">
+                    <a href="#fifa2014"><img src="worldcupimg/2014/Messi.jpg" width="250" height="400"></a>
+                    <p>2014</p>
+                </div>
+                <div class="mvp-img" id="img2018">
+                    <a href="russia.html"><img src="worldcupimg/2018/이승우.jpg" width="250" height="400"></a>
+                    <p>2018</p>
+                </div>
+                <img id="trophy" src="worldcupimg/trophy/trophy1.png" width="200" height="500">
+            </div>
+
+            <div id="banner2"></div>
+
+            <div id="title_history"></div>
+            <div id="history">
+                <div class="history-item">
+                    <h2></h2>        
+                </div>
+                <div class="history-item">
+                    <dl><dt>보기</dt></dl>
+                        <p><span style="background-color:gold; border:1px solid darkgray">&#160;&#160;&#160;</span> 우승 <span style="background-color:silver; border:1px solid darkgray">&#160;&#160;&#160;</span> 준우승 <span style="background-color:#cc9966; border:1px solid darkgray">&#160;&#160;&#160;</span> 3아래 <span style="background-color:#9acdff; border:1px solid darkgray">&#160;&#160;&#160;</span> 4아래 <span style="background-color:#ccffcc; border:1px solid darkgray">&#160;&#160;&#160;</span> 8강 <span style="background-color:#ffffcc; border:1px solid darkgray">&#160;&#160;&#160;</span> 16강 <span style="background-color:#ffcccc; border:1px solid darkgray">&#160;&#160;&#160;</span> 조별 리그
+                        </p>
+                    <table class="wikitable" style="text-align:center;">
+
+                    <tbody><tr>
+                    <th width="60">대회
+                    </th>
+                    <th width="180">A조<br />(자동 진출국)
+                    </th>
+                    <th width="180">B조
+                    </th>
+                    <th width="180">C조
+                    </th>
+                    <th width="180">D조
+                    </th>
+                    <th width="180">E조
+                    </th>
+                    <th width="180">F조
+                    </th>
+                    <th width="180">G조
+                    </th>
+                    <th width="180">H조
+                    </th></tr>
+                    <tr>
+                    <td>1998년</td>
+                    <td align="center" style="width: 57px; background-color: silver;" colspan="1">브라질</a><br />(전대회 우승국)</td>
+                    <td align="center" style="width: 57px; background-color: #ccffcc;" colspan="1">이탈리아</a></td>
+                    <td align="center" style="width: 57px; background-color: gold;" colspan="1">프랑스</a><br />(개최국)</b></td>
+                    <td align="center" style="width: 57px; background-color: #ffcccc;" colspan="1">스페인</a></td>
+                    <td align="center" style="width: 57px; background-color: #9acdff;" colspan="1">네덜란드</a></td>
+                    <td align="center" style="width: 57px; background-color: #ccffcc;" colspan="1">독일</a></td>
+                    <td align="center" style="width: 57px; background-color: #ffffcc;" colspan="1">잉글랜드</a></td>
+                    <td align="center" style="width: 57px; background-color: #ccffcc;" colspan="1">아르헨티나</a>
+                    </td></tr>
+                    <tr>
+                    <td>2002년</a></td>
+                    <td align="center" style="width: 57px; background-color: #ffcccc;" colspan="1">프랑스</a><br />(전대회 우승국)</td>
+                    <td align="center" style="width: 57px; background-color: #ccffcc;" colspan="1">스페인</a></td>
+                    <td align="center" style="width: 57px; background-color: gold;" colspan="1">브라질</a></b></td>
+                    <td align="center" style="width: 57px; background-color: #9acdff;" colspan="1">대한민국</a><br />(공동 개최국)</b></td>
+                    <td align="center" style="width: 57px; background-color: silver;" colspan="1">독일</a></td>
+                    <td align="center" style="width: 57px; background-color: #ffcccc;" colspan="1">아르헨티나</a></td>
+                    <td align="center" style="width: 57px; background-color: #ffffcc;" colspan="1">이탈리아</a></td>
+                    <td align="center" style="width: 57px; background-color: #ffffcc;" colspan="1">일본</a><br />(공동 개최국)</b>
+                    </td></tr>
+                    <tr>
+                    <td>2006년</a></td>
+                    <td align="center" style="width: 57px; background-color: #cc9966;" colspan="1">독일</a><br />(개최국)</b></td>
+                    <td align="center" style="width: 57px; background-color: #ccffcc;" colspan="1">잉글랜드</a></td>
+                    <td align="center" style="width: 57px; background-color: #ccffcc;" colspan="1">아르헨티나</a></td>
+                    <td align="center" style="width: 57px; background-color: #ffffcc;" colspan="1">멕시코</a></td>
+                    <td align="center" style="width: 57px; background-color: gold;" colspan="1">이탈리아</a></b></td>
+                    <td align="center" style="width: 57px; background-color: #ccffcc;" colspan="1">브라질</a><br />(전대회 우승국)</td>
+                    <td align="center" style="width: 57px; background-color: silver;" colspan="1">프랑스</a></td>
+                    <td align="center" style="width: 57px; background-color: #ffffcc;" colspan="1">스페인</a>
+                    </td></tr>
+                    <tr>
+                    <td>2010년</a></td>
+                    <td align="center" style="width: 57px; background-color: #ffcccc;" colspan="1">남아프리카 공화국</a><br />(개최국)</b></td>
+                    <td align="center" style="width: 57px; background-color: #ccffcc;" colspan="1">아르헨티나</a></td>
+                    <td align="center" style="width: 57px; background-color: #ffffcc;" colspan="1">잉글랜드</a></td>
+                    <td align="center" style="width: 57px; background-color: #cc9966;" colspan="1">독일</a></td>
+                    <td align="center" style="width: 57px; background-color: silver;" colspan="1">네덜란드</a></td>
+                    <td align="center" style="width: 57px; background-color: #ffcccc;" colspan="1">이탈리아</a><br />(전대회 우승국)</td>
+                    <td align="center" style="width: 57px; background-color: #ccffcc;" colspan="1">브라질</a></td>
+                    <td align="center" style="width: 57px; background-color: gold;" colspan="1">스페인</a></b>
+                    </td></tr>
+                    <tr>
+                    <td>2014년</a></td>
+                    <td align="center" style="width: 57px; background-color: #9acdff;" colspan="1">브라질</a><br />(개최국)</b></td>
+                    <td align="center" style="width: 57px; background-color: #ffcccc;" colspan="1">스페인</a><br />(전대회 우승국)</td>
+                    <td align="center" style="width: 57px; background-color: #ccffcc;" colspan="1">콜롬비아</a></td>
+                    <td align="center" style="width: 57px; background-color: #ffffcc;" colspan="1">우루과이</a></td>
+                    <td align="center" style="width: 57px; background-color: #ffffcc;" colspan="1">스아래스</a></td>
+                    <td align="center" style="width: 57px; background-color: silver;" colspan="1">아르헨티나</a></td>
+                    <td align="center" style="width: 57px; background-color: gold;" colspan="1">독일</a></b></td>
+                    <td align="center" style="width: 57px; background-color: #ccffcc;" colspan="1">벨기에</a>
+                    </td></tr>
+                    <tr>
+                    <td>2018년</a></td>
+                    <td align="center" style="width: 57px; background-color: #;" colspan="1">러시아</a><br />(개최국)</b></td>
+                    <td align="center" style="width: 57px; background-color: #;" colspan="1">포르투갈</a></td>
+                    <td align="center" style="width: 57px; background-color: #;" colspan="1">프랑스</a></td>
+                    <td align="center" style="width: 57px; background-color: #;" colspan="1">아르헨티나</a></td>
+                    <td align="center" style="width: 57px; background-color: #;" colspan="1">브라질</a></td>
+                    <td align="center" style="width: 57px; background-color: #;" colspan="1">독일</a><br />(전대회 우승국)</td>
+                    <td align="center" style="width: 57px; background-color: #;" colspan="1">벨기에</a></td>
+                    <td align="center" style="width: 57px; background-color: #;" colspan="1">폴란드</a>
+                    </td></tr>
+                    <tr>
+                    <td>2022년</a></td>
+                    <td>카타르</a><br />(개최국)</b></td>
+                    <td>&#160;?</td>
+                    <td>&#160;?</td>
+                    <td>&#160;?</td>
+                    <td>&#160;?</td>
+                    <td>&#160;?</td>
+                    <td>&#160;?</td>
+                    <td>&#160;?</td>
+                    </td></tr></tbody></table>
+                </div>
+                <div class="history-item">
+                    <img src="worldcupimg/ball/Adidas-footballs-for-fifa-world-cup.jpg" width="1460" height="600">
+                </div>
+                <div class="history-item">
+                    <img src="worldcupimg/article-history-of-the-world-cup-hero.jpg" width="1460" height="600">
+                </div>
+            </div>
+
+            <div id="fifa1998"></div>
+
+            <div class="year-left year"><a href="https://namu.wiki/w/1998%20FIFA%20%EC%9B%94%EB%93%9C%EC%BB%B5%20%ED%94%84%EB%9E%91%EC%8A%A4" target="_blank"></a><img src="worldcupimg/icon/아래.png" height="114"></div>
+            <div id="preview-up">
+                <div class="preview-up-item">
+                    <img src="worldcupimg/1998/Flag_of_France.png" width="478" height="280">
+                    <table class="wikitable">
+                        <tbody>
+                            <tr>
+                                <th id="host1998" align="center" style="width: 250px; height: ; background-color: red;"></th>
+                                <td id="host_country1998" align="center" style="width: 250px; height: 57px; background-color: red;"></td>
+                            </tr>
+                            <tr>
+                                <th id="first_place_country1998" align="center" style="width: 250px; height: 57px; background-color: gold;"></th>
+                                <td id="first_place1998" align="center" style="width: 250px; height: 57px; background-color: gold;"></td>
+                            </tr>
+                            <tr>
+                                <th id="second_place_country1998" align="center" style="width: 250px; height: 57px; background-color: silver;"></th>
+                                <td id="second_place1998" align="center" style="width: 50px; height: 57px; background-color: silver;"></td>
+                            </tr>
+                            <tr>
+                                <th id="third_place_country1998" align="center" style="width: 250px; height: 57px; background-color: #DBA901;"></th>
+                                <td id="third_place1998" align="center" style="width: 250px; height: 57px; background-color: #DBA901;"></td>
+                            </tr>
+                            <tr>
+                                <th id="fourth_place_country1998" align="center" style="width: 250px; height: 57px; background-color: #B43104;"></th>
+                                <td id="fourth_place1998" align="center" style="width: 250px; height: 57px; background-color: #B43104;"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="preview-up-item" id="ball1998">
+                    <img src="worldcupimg/1998/Tricolore.png" width="478" height="480">
+                </div>
+                <div class="preview-up-item" id="mascot1998">
+                    <img src="worldcupimg/1998/푸틱스.png" width="478" height="480">
+                </div>
+                <div class="preview-up-item" id="highlight1998">
+                    <iframe width="1000" height="500" src="https://www.youtube.com/embed/YnwqRKb7K1A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <div class="preview-up-item">
+                    <table class="wikitable">
+                        <tbody>
+                            <tr>
+                                <th id="mvp1998" colspan="2" align="center" style="height: 118px; background-color: #9A2EFE;"></th> 
+                            </tr>
+                            <tr>
+                                <th id="golden_ball1998" align="center" style="width: 250px; height: 118px; background-color: gold;"></th>
+                                <td id="golden_ball_name1998" align="center" style="width: 250px; height: 118px; background-color: gold;"></td>
+                            </tr>
+                            <tr>
+                                <th id="golden_boots1998" align="center" style="width: 250px; height: 118px; background-color: gold;"></th>
+                                <td id="golden_boots_name1998" align="center" style="width: 250px; height: 118px; background-color: gold;"></td>
+                            </tr>
+                            <tr>
+                                <th id="golden_glove1998" align="center" style="width: 250px; height: 118px; background-color: gold;"></th>
+                                <td id="golden_glove_name1998" align="center" style="width: 50px; height: 118px; background-color: gold;"></td>
+                            </tr>
+                            <tr>
+                                <th id="rookie_award1998" align="center" style="width: 250px; height: 118px; background-color: #9acdff;"></th>
+                                <td id="rookie_award_name1998" align="center" style="width: 250px; height: 118px; background-color: #9acdff;"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="preview-up-item">
+                    <img src="worldcupimg/1998/ned1_copy.jpg" width="1480" height="1480">
+                </div>
+
+            </div>
+
+            <div id="fifa2002"></div>
+
+            <div class="year-right year"><img src="worldcupimg/icon/아래.png" height="114"><a href="https://namu.wiki/w/2002%20FIFA%20%EC%9B%94%EB%93%9C%EC%BB%B5%20%ED%95%9C%EA%B5%AD/%EC%9D%BC%EB%B3%B8" target="_blank"></a></div>
+            <div id="preview-down">
+                <div id="mascot2002" class="preview-down-item">
+                    <img src="worldcupimg/2002/6805808.1.jpg" width="478" height="480">
+                </div>
+                <div id="ball2002" class="preview-down-item">
+                    <img src="worldcupimg/2002/Fevernova.png" width="478" height="480">
+                </div>
+                <div class="preview-down-item">
+                    <img src="worldcupimg/2002/Flag of South Korea.png" width="244" height="280">
+                    <img src="worldcupimg/2002/Flag_of_Japan.png" width="244" height="280">
+                    <table class="wikitable">
+                        <tbody>
+                            <tr>
+                                <th id="host2002" align="center" style="width: 250px; height: ; background-color: red;"></th>
+                                <td id="host_country2002" align="center" style="width: 250px; height: 57px; background-color: red;"></td>
+                            </tr>
+                            <tr>
+                                <th id="first_place_country2002" align="center" style="width: 250px; height: 57px; background-color: gold;"></th>
+                                <td id="first_place2002" align="center" style="width: 250px; height: 57px; background-color: gold;"></td>
+                            </tr>
+                            <tr>
+                                <th id="second_place_country2002" align="center" style="width: 250px; height: 57px; background-color: silver;"></th>
+                                <td id="second_place2002" align="center" style="width: 50px; height: 57px; background-color: silver;"></td>
+                            </tr>
+                            <tr>
+                                <th id="third_place_country2002" align="center" style="width: 250px; height: 57px; background-color: #DBA901;"></th>
+                                <td id="third_place2002" align="center" style="width: 250px; height: 57px; background-color: #DBA901;"></td>
+                            </tr>
+                            <tr>
+                                <th id="fourth_place_country2002" align="center" style="width: 250px; height: 57px; background-color: #B43104;"></th>
+                                <td id="fourth_place2002" align="center" style="width: 250px; height: 57px; background-color: #B43104;"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="preview-down-item">
+                    <table class="wikitable">
+                        <tbody>
+                            <tr>
+                                <th id="mvp2002" colspan="2" align="center" style="height: 118px; background-color: #9A2EFE;"></th> 
+                            </tr>
+                            <tr>
+                                <th id="golden_ball2002" align="center" style="width: 250px; height: 118px; background-color: gold;"></th>
+                                <td id="golden_ball_name2002" align="center" style="width: 250px; height: 118px; background-color: gold;"></td>
+                            </tr>
+                            <tr>
+                                <th id="golden_boots2002" align="center" style="width: 250px; height: 118px; background-color: gold;"></th>
+                                <td id="golden_boots_name2002" align="center" style="width: 250px; height: 118px; background-color: gold;"></td>
+                            </tr>
+                            <tr>
+                                <th id="golden_glove2002" align="center" style="width: 250px; height: 118px; background-color: gold;"></th>
+                                <td id="golden_glove_name2002" align="center" style="width: 50px; height: 118px; background-color: gold;"></td>
+                            </tr>
+                            <tr>
+                                <th id="rookie_award2002" align="center" style="width: 250px; height: 118px; background-color: #9acdff;"></th>
+                                <td id="rookie_award_name2002" align="center" style="width: 250px; height: 118px; background-color: #9acdff;"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="highlight2002" class="preview-down-item">
+                    <iframe width="1000" height="500" src="https://www.youtube.com/embed/SGpeEv53l6o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <div class="preview-down-item">
+                    <img src="worldcupimg/2002/2002copy.jpg" width="1480" height="1480">
+                </div>
+            </div>
+
+            <div id="fifa2006"></div>
+
+            <div class="year-left year"><a href="https://namu.wiki/w/2006%20FIFA%20%EC%9B%94%EB%93%9C%EC%BB%B5%20%EB%8F%85%EC%9D%BC" target="_blank"></a><img src="worldcupimg/icon/아래.png" height="114"></div>
+            <div id="preview-up">
+                <div class="preview-up-item">
+                    <img src="worldcupimg/2006/Flag_of_Germany.png" width="478" height="280">
+                    <table class="wikitable">
+                        <tbody>
+                            <tr>
+                                <th id="host2006" align="center" style="width: 250px; height: ; background-color: red;"></th>
+                                <td id="host_country2006" align="center" style="width: 250px; height: 57px; background-color: red;"></td>
+                            </tr>
+                            <tr>
+                                <th id="first_place_country2006" align="center" style="width: 250px; height: 57px; background-color: gold;"></th>
+                                <td id="first_place2006" align="center" style="width: 250px; height: 57px; background-color: gold;"></td>
+                            </tr>
+                            <tr>
+                                <th id="second_place_country2006" align="center" style="width: 250px; height: 57px; background-color: silver;"></th>
+                                <td id="second_place2006" align="center" style="width: 50px; height: 57px; background-color: silver;"></td>
+                            </tr>
+                            <tr>
+                                <th id="third_place_country2006" align="center" style="width: 250px; height: 57px; background-color: #DBA901;"></th>
+                                <td id="third_place2006" align="center" style="width: 250px; height: 57px; background-color: #DBA901;"></td>
+                            </tr>
+                            <tr>
+                                <th id="fourth_place_country2006" align="center" style="width: 250px; height: 57px; background-color: #B43104;"></th>
+                                <td id="fourth_place2006" align="center" style="width: 250px; height: 57px; background-color: #B43104;"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="preview-up-item" id="ball2006">
+                    <img src="worldcupimg/2006/Team_Geist_1.png" width="478" height="480">
+                </div>
+                <div class="preview-up-item" id="mascot2006">
+                    <img src="worldcupimg/2006/4-jjangsm81.jpg" width="478" height="480">
+                </div>
+                <div class="preview-up-item" id="highlight1998">
+                    <iframe width="1000" height="500" src="https://www.youtube.com/embed/Ag-aJKLWs_s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <div class="preview-up-item">
+                    <table class="wikitable">
+                        <tbody>
+                            <tr>
+                                <th id="mvp2006" colspan="2" align="center" style="height: 118px; background-color: #9A2EFE;"></th> 
+                            </tr>
+                            <tr>
+                                <th id="golden_ball2006" align="center" style="width: 250px; height: 118px; background-color: gold;"></th>
+                                <td id="golden_ball_name2006" align="center" style="width: 250px; height: 118px; background-color: gold;"></td>
+                            </tr>
+                            <tr>
+                                <th id="golden_boots2006" align="center" style="width: 250px; height: 118px; background-color: gold;"></th>
+                                <td id="golden_boots_name2006" align="center" style="width: 250px; height: 118px; background-color: gold;"></td>
+                            </tr>
+                            <tr>
+                                <th id="golden_glove2006" align="center" style="width: 250px; height: 118px; background-color: gold;"></th>
+                                <td id="golden_glove_name2006" align="center" style="width: 50px; height: 118px; background-color: gold;"></td>
+                            </tr>
+                            <tr>
+                                <th id="rookie_award2006" align="center" style="width: 250px; height: 118px; background-color: #9acdff;"></th>
+                                <td id="rookie_award_name2006" align="center" style="width: 250px; height: 118px; background-color: #9acdff;"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="preview-up-item">
+                    <img src="worldcupimg/2006/06.jpg" width="1480" height="1480">
+                </div>
+            </div>
+
+            <div id="fifa2010"></div>
+
+            <div class="year-right year"><img src="worldcupimg/icon/아래.png" height="114"><a href="https://namu.wiki/w/2010%20FIFA%20%EC%9B%94%EB%93%9C%EC%BB%B5%20%EB%82%A8%EC%95%84%ED%94%84%EB%A6%AC%EC%B9%B4%EA%B3%B5%ED%99%94%EA%B5%AD" target="_blank"></a></div>
+            <div id="preview-down">
+                <div class="preview-down-item" id="mascot2010">
+                    <img src="worldcupimg/2010/4bed82eb36c28.jpg" width="478" height="480">
+                </div>
+                <div class="preview-down-item" id="ball2010">
+                    <img src="worldcupimg/2010/Jabulani_1.png" width="478" height="480">
+                </div>
+                <div class="preview-down-item">
+                    <img src="worldcupimg/2010/Flag_of_South_Africa.png" width="478" height="280">
+                    <table class="wikitable">
+                        <tbody>
+                            <tr>
+                                <th id="host2010" align="center" style="width: 250px; height: ; background-color: red;"></th>
+                                <td id="host_country2010" align="center" style="width: 250px; height: 57px; background-color: red;"></td>
+                            </tr>
+                            <tr>
+                                <th id="first_place_country2010" align="center" style="width: 250px; height: 57px; background-color: gold;"></th>
+                                <td id="first_place2010" align="center" style="width: 250px; height: 57px; background-color: gold;"></td>
+                            </tr>
+                            <tr>
+                                <th id="second_place_country2010" align="center" style="width: 250px; height: 57px; background-color: silver;"></th>
+                                <td id="second_place2010" align="center" style="width: 50px; height: 57px; background-color: silver;"></td>
+                            </tr>
+                            <tr>
+                                <th id="third_place_country2010" align="center" style="width: 250px; height: 57px; background-color: #DBA901;"></th>
+                                <td id="third_place2010" align="center" style="width: 250px; height: 57px; background-color: #DBA901;"></td>
+                            </tr>
+                            <tr>
+                                <th id="fourth_place_country2010" align="center" style="width: 250px; height: 57px; background-color: #B43104;"></th>
+                                <td id="fourth_place2010" align="center" style="width: 250px; height: 57px; background-color: #B43104;"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="preview-down-item">
+                    <table class="wikitable">
+                        <tbody>
+                            <tr>
+                                <th id="mvp2010" colspan="2" align="center" style="height: 118px; background-color: #9A2EFE;"></th> 
+                            </tr>
+                            <tr>
+                                <th id="golden_ball2010" align="center" style="width: 250px; height: 118px; background-color: gold;"></th>
+                                <td id="golden_ball_name2010" align="center" style="width: 250px; height: 118px; background-color: gold;"></td>
+                            </tr>
+                            <tr>
+                                <th id="golden_boots2010" align="center" style="width: 250px; height: 118px; background-color: gold;"></th>
+                                <td id="golden_boots_name2010" align="center" style="width: 250px; height: 118px; background-color: gold;"></td>
+                            </tr>
+                            <tr>
+                                <th id="golden_glove2010" align="center" style="width: 250px; height: 118px; background-color: gold;"></th>
+                                <td id="golden_glove_name2010" align="center" style="width: 50px; height: 118px; background-color: gold;"></td>
+                            </tr>
+                            <tr>
+                                <th id="rookie_award2010" align="center" style="width: 250px; height: 118px; background-color: #9acdff;"></th>
+                                <td id="rookie_award_name2010" align="center" style="width: 250px; height: 118px; background-color: #9acdff;"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="preview-down-item" id="highlight2010">
+                    <iframe width="1000" height="500" src="https://www.youtube.com/embed/ubplonN_7ic" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <div class="preview-down-item">
+                    <img src="worldcupimg/2010/untitled-2333333.jpg" width="1480" height="1480">
+                </div>
+            </div>
+
+            <div id="fifa2014"></div>
+
+            <div class="year-left year"><a href="https://namu.wiki/w/2014%20FIFA%20%EC%9B%94%EB%93%9C%EC%BB%B5%20%EB%B8%8C%EB%9D%BC%EC%A7%88" target="_blank"></a><img src="worldcupimg/icon/아래.png" height="114"></div>
+            <div id="preview-up">
+                <div class="preview-up-item">
+                    <img src="worldcupimg/2014/Flag_of_Brazil.png" width="497" height="280">
+                    <table class="wikitable">
+                        <tbody>
+                            <tr>
+                                <th id="host2014" align="center" style="width: 250px; height: ; background-color: red;"></th>
+                                <td id="host_country2014" align="center" style="width: 250px; height: 57px; background-color: red;"></td>
+                            </tr>
+                            <tr>
+                                <th id="first_place_country2014" align="center" style="width: 250px; height: 57px; background-color: gold;"></th>
+                                <td id=first_place2014"" align="center" style="width: 250px; height: 57px; background-color: gold;"></td>
+                            </tr>
+                            <tr>
+                                <th id="second_place_country2014" align="center" style="width: 250px; height: 57px; background-color: silver;"></th>
+                                <td id="second_place2014" align="center" style="width: 50px; height: 57px; background-color: silver;"></td>
+                            </tr>
+                            <tr>
+                                <th id="third_place_country2014" align="center" style="width: 250px; height: 57px; background-color: #DBA901;"></th>
+                                <td id="third_place2014" align="center" style="width: 250px; height: 57px; background-color: #DBA901;"></td>
+                            </tr>
+                            <tr>
+                                <th id="fourth_place_country2014" align="center" style="width: 250px; height: 57px; background-color: #B43104;"></th>
+                                <td id="fourth_place2014" align="center" style="width: 250px; height: 57px; background-color: #B43104;"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="preview-up-item" id="ball2014">
+                    <img src="worldcupimg/2014/Brazuca_1.png" width="478" height="480">
+                </div>
+                <div class="preview-up-item" id="mascot2014">
+                    <img src="worldcupimg/2014/PAP20120917089201034_P2.jpg" width="478" height="480">
+                </div>
+                <div class="preview-up-item" id="highlight2014">
+                    <iframe width="1000" height="500" src="https://www.youtube.com/embed/c0cUE-ePDEc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <div class="preview-up-item">
+                    <table class="wikitable">
+                        <tbody>
+                            <tr>
+                                <th id="mvp2014" colspan="2" align="center" style="height: 118px; background-color: #9A2EFE;"></th> 
+                            </tr>
+                            <tr>
+                                <th id="golden_ball2014" align="center" style="width: 250px; height: 118px; background-color: gold;"></th>
+                                <td id="golden_ball_name2014" align="center" style="width: 250px; height: 118px; background-color: gold;"></td>
+                            </tr>
+                            <tr>
+                                <th id="golden_boots2014" align="center" style="width: 250px; height: 118px; background-color: gold;"></th>
+                                <td  id="golden_boots_name2014" align="center" style="width: 250px; height: 118px; background-color: gold;"></td>
+                            </tr>
+                            <tr>
+                                <th id="golden_glove2014" align="center" style="width: 250px; height: 118px; background-color: gold;"></th>
+                                <td id="golden_glove_name2014" align="center" style="width: 50px; height: 118px; background-color: gold;"></td>
+                            </tr>
+                            <tr>
+                                <th id="rookie_award2014" align="center" style="width: 250px; height: 118px; background-color: #9acdff;"></th>
+                                <td id="rookie_award_name2014" align="center" style="width: 250px; height: 118px; background-color: #9acdff;"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="footer-wrap">
+            <div id="footteam">
+                <div>푸팀</div> <div>Если я тебя знаю, мне нечего бояться</div>
+            </div>
+
+            <br />
+            <br />
+            <br />
+            <nav>
+                <ul>
+                    <li>회사소개 |&nbsp;</li>
+                    <li>채용안내 |&nbsp;</li>
+                    <li>이용약관 |&nbsp;</li>
+                    <li>이용등급안내 |&nbsp;</li>
+                    <li>개인정보처리방침 |&nbsp;</li>
+                    <li>청소년보호정책 |&nbsp;</li>
+                    <li>새천년관 |&nbsp;</li>
+                    <li>운영정책</li>
+                </ul>
+            </nav>
+            <br />
+            <br />
+            <div id="address">
+                <div>
+                    건국대학교 서울시 광진구 능동로 120 KONKUK UNIVERSITY 푸팀
+                </div>
+                <div>E-mail : xxxxxxx@konkuk.ac.kr 학번 : 201711368 팀장 황산해 공과대학 소프트웨어학과 </div>
+                <div>팀원 : 201611244 한상규 201711346 정우혁 201711353 지윤우 201711283 강기호 201711339 임한승</div>
+            </div>
+            <br />
+            <div id="copyright-wrap">
+                <div>ⓒ 2018 FOOTTEAM Corporation All Rights Reserved.</div><br />
+                <div id="copyright">© 2018 FOOTTEAM Web Inc. FT, FT SPORTS, and the FT SPORTS logo are trademarks of FOOTTEAM Arts Inc. Official img licensed product. © img and img’s Official Licensed Product Logo are copyrights and/or trademarks of img. All rights reserved. Manufactured under license by Electronic Arts Inc. The use of real player names and likenesses is authorized by FIFPro Commercial Enterprises BV. The Premier League Logo © The Football Association Premier League Limited 2006. The Premier League Logo is a trademark of the Football Association Premier League Limited which is registered in the UK and other jurisdictions. The Premier League Club logos are copyright works and registered trademarks of the respective Clubs. All are used with the kind permission of their respective owners. Manufactured under license from the Football Association Premier League Limited. No association with nor endorsement of this product by any player is intended or implied by the license granted by the Football Association Premier League Limited to Electronic Arts.All other trademarks are the property of their respective owners.</div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

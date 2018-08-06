@@ -1,0 +1,363 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    background-color: #1F230C;
+    background: url("img/wallpaper.png");
+    background-size: 100%;
+    position: relative;
+}
+
+header a {
+    color: white;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 11;
+    width: 100%;
+    height: 60px;
+    background-color: #000000;
+    opacity: 0.85;
+}
+
+    header > nav {
+        padding: 0 3%;
+        overflow: hidden;
+        width: 100%;
+        text-align: center;
+        line-height: 60px;
+        opacity: 1.0;
+        color: white;
+        font-size: 20px;
+    }
+
+        header > nav > #side-menu-button {
+            z-index: 1;
+            width: 25px;
+            height: 25px;
+            float: left;
+            margin-top: 5px;
+            padding: 10px 0px;
+            padding-left: 10px;
+        }
+
+        header > nav > a > #home-button {
+            width: 45px;
+            height: 45px;
+            float: left;
+            margin: 0 30%;
+            margin-top: 10px;
+        }
+
+        header > nav > #search {
+            float: left;
+            width: 30px;
+            height: 30px;
+            font-size: 16px;
+            color: gray;
+            margin-top: 15px;
+        }
+
+
+#side-menu {
+    left: -310px;
+    top: 0px;
+    width: 300px;
+    padding-left: 10px;
+    padding-top: 50px;
+    position: fixed;
+    text-align: left;
+    background-color: black;
+    opacity: 0.9;
+    z-index: 10;
+}
+
+    #side-menu > li {
+        height: 52px;
+        line-height: 60px;
+    }
+
+        #side-menu > li > a {
+            text-decoration: none;
+            color: white;
+        }
+
+
+#main-wrap {
+    margin: 0 auto;
+    width: 100%;
+}
+
+#main-content {
+    margin: 0 auto;
+    margin-top: 180px;
+    width: 100%;
+}
+
+#title-area {
+    position: relative;
+    height: 260px;
+}
+
+    #title-area > #title-menu {
+        position: absolute;
+        top: 170px;
+        width: 100%;
+        height: 60px;
+        align-content: center;
+        text-align: center;
+    }
+
+        #title-area > #title-menu > div {
+            margin: 0 auto;
+            color: white;
+            opacity: 0.9;
+            padding-top: 15px;
+            font-size: 16px;
+            letter-spacing: 2px;
+            text-shadow: 1px 1px #000000;
+        }
+
+        #title-area > #title-menu > ul {
+            align-content: center;
+            text-align: center;
+            margin-left: 32%;
+        }
+
+            #title-area > #title-menu > ul > li {
+                align-content: center;
+                text-align: center;
+                line-height: 60px;
+            }
+
+.other-site-items {
+    float: left;
+}
+
+    .other-site-items img {
+        margin-left: 10px;
+        width: 20px;
+        height: 20px;
+    }
+
+#slide-img {
+    overflow: hidden;
+    position: absolute;
+    background-color: black;
+    top: 260px;
+    width: 100%;
+    height: 160px;
+}
+
+    #slide-img > img:nth-of-type(1) {
+        width: 50%;
+        height: 160px;
+        float: left;
+        position: absolute;
+    }
+
+    #slide-img > img:nth-of-type(2) {
+        width: 50%;
+        height: 160px;
+        float: left;
+        position: absolute;
+        left: 50%;
+    }
+
+    #slide-img > img:nth-of-type(3) {
+        width: 50%;
+        height: 160px;
+        float: left;
+        position: absolute;
+        left: 100%;
+    }
+
+    #slide-img > img:nth-of-type(4) {
+        width: 50%;
+        height: 160px;
+        float: left;
+        position: absolute;
+        left: 150%;
+    }
+
+    #slide-img > img:nth-of-type(5) {
+        width: 50%;
+        height: 160px;
+        float: left;
+        position: absolute;
+        left: 200%;
+    }
+
+
+#main-content > .preview-item {
+    width: 350px;
+    margin: 20px auto;
+    background-color: white;
+    height: 300px;
+}
+
+
+.small-banner {
+    margin: 20px auto;
+    width: 350px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+    .small-banner:nth-of-type(2) {
+        margin: 20px auto;
+        margin-top: 22.5px;
+        margin-bottom: 22.5px;
+        width: 350px;
+        height: 100px;
+        background-color: blueviolet;
+    }
+
+footer {
+    background-color: #000200;
+}
+
+#footer-wrap {
+    font-size: 12px;
+    color: #d1d1d1;
+    margin: 0 auto;
+    padding: 50px 10px;
+    width: 355px;
+}
+
+    #footer-wrap nav {
+        overflow: hidden;
+        float: left;
+        margin-bottom: 20px;
+    }
+
+        #footer-wrap nav li {
+            font-size: 12.5px;
+            float: left;
+            font-weight: bold;
+        }
+
+#footteam > div:nth-of-type(1) {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#footteam > div:nth-of-type(2) {
+    margin-left: 10px;
+    padding-top: 12px;
+    float: left;
+}
+
+#footteam {
+    overflow: hidden;
+}
+
+
+#address {
+    display: block;
+}
+
+
+#copyright-wrap {
+    font-size: 10px;
+}
+
+#copyright {
+}
+
+#content1 {
+    width: 350px;
+    margin: 20px auto;
+    overflow: hidden;
+    background-color: #F6CECE;
+    font-family: 'Yeon Sung', cursive;
+    font-size: 20px;
+    padding: 10px;
+}
+#content1 h1 {
+    color: #B40404;
+}
+
+#content2 {
+    overflow: hidden;
+    background-color: #F8E0E0;
+    font-family: 'Sunflower', sans-serif;
+    font-size: 15px;
+    height: 500px;
+    width: 350px;
+    margin: 20px auto;
+    padding: 10px;
+}
+#content2 h1 {
+    text-align: right;
+    color: #B40404;
+}
+
+#content3 {
+    height: 500px;
+    overflow: hidden;
+    background-color: #F6CECE;
+    font-family: 'Yeon Sung', cursive;
+    font-size: 15px;
+    width: 350px;
+    margin: 20px auto;
+    padding: 10px;
+}
+#content3 h1 {
+    text-align: center;
+    color: #B40404;
+}
+
+#content4 {
+    width: 350px;
+    margin: 20px auto;
+    overflow: hidden;
+    padding: 10px;
+    background-color: #F6CECE;
+    font-size: 10px;
+}
+#content4 h1 {
+    color: #B40404;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    font-family: 'Poor Story', cursive;
+    font-size: 7px;
+}
+table th {
+    border: 1px solid black;
+    padding: 5px;
+}
+table td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#space1, #space2, #space3, #space4, #space5 {
+    height: 70px;
+}
